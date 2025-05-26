@@ -1,0 +1,2 @@
+Pythrelius WEB Editor/python Flask
+Es un edito capaz de ejecutar código python hecho con python en Flask, MongoDB. exec y otras librerias. este cuenta con un editor de texto, un gestor de proyectos/archivos y un sistema de administración. Aviso: Yo trabaje en la programación de la app y en el diseño usando HTML,Bootstrap,css y Javascript
