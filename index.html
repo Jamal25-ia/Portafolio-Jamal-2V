@@ -710,7 +710,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img loading = "lazy" src="{{ url_for('static', filename='Portadas/SuperMarket.png') }}" alt="Imagen pequeña" class="img-fluid fixed-size-img">
+        <img loading = "lazy" src="static/Portadas/SuperMarket.png" alt="Imagen pequeña" class="img-fluid fixed-size-img">
         <p>Este proyecto consiste en una pagina Web en la cual la persona se registra y puede realizar compras la persona puede agregar al carrito los productos que desea comprar y se simula la compra y se guarda la factura en la BD.</p>
         <p>Este es un sitio web hecho para la materia de desarrollo de software por eso se simula la compra.</p>
         <p>la pagina cuenta con un rol de Usuario solamente.</p>
@@ -720,12 +720,17 @@
         <p>También me encargue de hacer modales sin bootstrap lo cual considero que fue un reto.</p>
         <!-- Imágenes que quieres ampliar con Magnific Popup -->
         <div class="gallery">
-            <a href="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.37.29 127.0.0.1 09fdb5f68aff.png') }}" target="_blank"><img loading = "lazy" src="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.37.29 127.0.0.1 09fdb5f68aff.png') }}" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
-            <a href="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.37.51 127.0.0.1 a5cd73181a42.png') }}" target="_blank"><img loading = "lazy" src="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.37.51 127.0.0.1 a5cd73181a42.png') }}" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
-            <a href="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.43.32 127.0.0.1 04838078854f.png') }}" target="_blank"><img loading = "lazy" src="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.43.32 127.0.0.1 04838078854f.png') }}" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
-            <a href="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.44.00 127.0.0.1 1fde3bdddbbc.png') }}" target="_blank"><img loading = "lazy" src="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.44.00 127.0.0.1 1fde3bdddbbc.png') }}" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
-            <a href="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.44.59 127.0.0.1 a568a7738cc8.png') }}" target="_blank"><img loading = "lazy" src="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.44.59 127.0.0.1 a568a7738cc8.png') }}" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
-            <a href="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.45.35 127.0.0.1 b2bd9a1fda3a.png') }}" target="_blank"><img loading = "lazy" src="{{ url_for('static', filename='Proyectos/SuperMarket/2024-06-21 15.45.35 127.0.0.1 b2bd9a1fda3a.png') }}" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
+            <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.37.29 127.0.0.1 09fdb5f68aff.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
+
+            <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.37.51 127.0.0.1 a5cd73181a42.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
+
+            <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.43.32 127.0.0.1 04838078854f.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
+
+            <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.44.00 127.0.0.1 1fde3bdddbbc.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
+
+            <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.44.59 127.0.0.1 a568a7738cc8.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
+            
+            <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.45.35 127.0.0.1 b2bd9a1fda3a.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
         </div>
       </div>
     </div>
