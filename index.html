@@ -729,7 +729,7 @@
             <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.44.00 127.0.0.1 1fde3bdddbbc.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
 
             <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.44.59 127.0.0.1 a568a7738cc8.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
-            
+
             <a class="image-link" href="#" onclick="openImageWindow(this); return false;"><img loading = "lazy" src="static/Proyectos/SuperMarket/2024-06-21 15.45.35 127.0.0.1 b2bd9a1fda3a.png" alt="Imagen grande" class="img-fluid" style="cursor: pointer; margin-bottom: 14px;"></a>
         </div>
       </div>
@@ -1234,6 +1234,16 @@
 
 
 
+<!--                      css y script manejan expandir imagen                  -->
+<style>
+    .image-link:hover {
+        cursor: zoom-in;
+    }
+    /* Si necesitas sobrescribir el cursor de la imagen */
+    .image-link:hover img {
+        cursor: zoom-in !important;
+    }
+</style>
 
 <script>
     function openImageWindow(element) {
