@@ -337,12 +337,21 @@
     }
   </style>
 
+<style>
+  .soft-blink {
+    animation: softBlink 2s ease-in-out infinite;
+  }
+  @keyframes softBlink {
+    50% { opacity: 0.8; transform: scale(1.01); }
+  }
+</style>
+
 
 <div class="container my-5" id="Proyectos">
     <div class="bg-body-tertiary p-5 rounded">
         <div class="col-sm-14 py-1 mx-auto">
             <h1 class="display-5 fw-normal">Proyectos</h1>
-            <h3>Haga click sobre un proyecto para ver más detalles.</h3>
+            <h3 class="soft-blink">Haga click sobre un proyecto para ver más detalles.</h3>
             <p>La primera etiqueta determina si es una página web, aplicación de Android o un programa de escritorio.</p>
 
             <div class="my-3">
