@@ -30,7 +30,7 @@
     
     skills.forEach(skill => {
         const card = document.createElement('div');
-        card.className = 'col-md-6';
+        card.className = 'col-12 col-sm-6 col-lg-4 col-xl-3'; // Grid responsivo mejorado
         card.innerHTML = `
             <div class="card mb-3 habilidad-item">
                 <div class="row g-0 tech-box rounded-3 badge bg-dark">
@@ -43,7 +43,7 @@
                                  class="img-fluid">
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div>
                         <div class="card-body d-flex flex-column justify-content-center">
                             <p class="card-text">Nivel: 
                                 <span class="${getLevelClass(skill.level)}">${skill.level}</span>
